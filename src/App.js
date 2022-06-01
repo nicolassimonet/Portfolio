@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 
 // import components
 import Header from './components/Header';
@@ -13,8 +13,19 @@ import Footer from './components/Footer';
 import BackTopBtn from './components/BackTopBtn';
 
 const App = () => {
+
+  let cursorRef = useRef();
+
+  const mousePos = e => {
+    cursorRef.current.setAttribute('style', `
+    top: ${e.pageY - 20}px; 
+    left:${e.pageX - 20}px;
+    `)
+  }
+
   return (
-    <div className='bg-white relative'>
+    <div onMouseMove={mousePos} className='bg-white relative'>
+      <div ref={cursorRef} className="cursor_perso"></div>
       <Header />
       <Hero />
       <Brands />
