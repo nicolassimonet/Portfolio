@@ -64,15 +64,15 @@ export const social = [
 export const brands = [
   {
     img: FreelancerBrandIcon,
-    href: '',
+    href: 'https://www.malt.fr/profile/nicolassimonet',
   },
   {
     img: UpworkBrandIcon,
-    href: '',
+    href: 'https://www.upwork.com/freelancers/~016e0099bceb3dd736',
   },
   {
     img: FiverBrandIcon,
-    href: '',
+    href: 'https://fr.fiverr.com/nicolas_s13/develop-react-front-end-web-app-100-seo',
   },
 ];
 

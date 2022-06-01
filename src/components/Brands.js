@@ -14,7 +14,7 @@ const Brands = () => {
             <div
               key={idx}
             >
-              <img src={brand.img} alt='' className='img__brands'/>
+              <a href={brand.href} target="__blank" rel="noopener, noreferrer" ><img src={brand.img} alt='' className='img__brands'/></a>
             </div>
           );
         })}
