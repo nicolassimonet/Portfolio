@@ -33,9 +33,6 @@ const About = () => {
                 À très bientôt ! 👋
               </p>
             </div>
-            <button className='btn btn-md bg-accent hover:bg-secondary-hover transition-all'>
-              Contactez-moi
-            </button>
           </div>
         </div>
       </div>

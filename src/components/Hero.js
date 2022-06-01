@@ -22,9 +22,6 @@ const Hero = () => {
               Développeur Web Front-End basée à Miramas, 
               spécialisé dans le SEO.
             </p>
-            <button className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all'>
-              Travaillez avec moi
-            </button>
           </div>
           <div className='hidden lg:flex flex-1 justify-end items-end'>
             <img src={WomanImg} alt='' />
