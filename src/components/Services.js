@@ -9,10 +9,10 @@ const Services = () => {
       <div className='container mx-auto'>
         <div className='flex flex-col items-center text-center'>
           <h2 className='section-title before:content-services relative before:absolute before:opacity-40 before:-top-[2rem] before:-left-28 before:hidden before:lg:block'>
-          Ce que je fais pour les clients
+          Ce que je fais pour mes clients
           </h2>
           <p className='subtitle'>
-            Créer un site web permet de créer un canal de communication direct avec vos collaborateurs / clients / utilisateurs / usagers et <span className='capitalize text-accent'>surtout de générer du lead qualifié.</span>
+            Créer un site web permet de créer un canal de communication immédiat avec vos collaborateurs / clients / utilisateurs / usagers et <span className='capitalize text-accent'>surtout de générer du lead qualifié.</span>
           </p>
         </div>
         <div className='grid lg:grid-cols-4 gap-8'>

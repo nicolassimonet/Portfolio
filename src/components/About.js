@@ -26,7 +26,7 @@ const About = () => {
               Bonjour, <br />
               Je m'appelle Nicolas, j'ai 21 ans et je suis Développeur Web Front-End depuis 2 ans maintenant !
               Je travaille principalement avec React.js, je fais également beaucoup d'intégration Web.
-              Je suis quelqu'un de très impliqués dans mon travail, je donne constamment le meilleur de moi-même.
+              Je suis quelqu'un de très impliqué dans mon travail, je donne constamment le meilleur de moi-même.
                 <br />
                 <br />
                 Appréciant fortement le travail d'équipe, j'aime me lancer à 100% dans des projets ! <br />
