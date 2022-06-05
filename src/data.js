@@ -81,7 +81,7 @@ export const projectsData = [
   {
     id: '1',
     image: Project1,
-    link: 'https://simoweb-cb08e.web.app/',
+    link: 'https://nicolas-simonet.web.app/',
     name: 'Portfolio',
     category: 'Développement Front-End',
     description: 'Portfolio personnel, vous êtes actuellement dessus.',
