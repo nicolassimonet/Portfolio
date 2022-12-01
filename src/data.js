@@ -16,7 +16,7 @@ import FiverBrandIcon from './assets/img/brands/fiverr.png';
 
 // projects images
 import Project1 from './assets/img/projects/p1.png';
-import Project2 from './assets/img/projects/p2.png';
+import Project2 from './assets/img/projects/p2.jpg';
 import Project3 from './assets/img/projects/p3.png';
 import Project4 from './assets/img/projects/p4.jpg';
 
