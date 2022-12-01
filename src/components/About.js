@@ -24,8 +24,8 @@ const About = () => {
               <hr className='mb-8 opacity-5' />
               <p className='mb-8'>
               Bonjour, <br />
-              Je m'appelle Nicolas, j'ai 21 ans et je suis Développeur Web Front-End depuis 2 ans maintenant !
-              Je travaille principalement avec React.js, je fais également beaucoup d'intégration Web.
+              Je m'appelle Nicolas, j'ai 22 ans et je suis Développeur Web depuis 2 ans maintenant !
+              Je travaille principalement avec différents <a href="https://www.journaldunet.fr/web-tech/dictionnaire-du-webmastering/1203355-framework/#:~:text=Un%20framework%20(ou%20infrastructure%20logicielle,logiciel%20ou%20d'une%20application."><strong className='explication'>framework</strong></a> tel que <a href="https://vuejs.org/"><strong className='explication'>Vue.js</strong></a> ou <a href="https://fr.reactjs.org/"><strong className='explication'>React.js</strong></a>, je fais également beaucoup d'intégration Web.
               Je suis quelqu'un de très impliqué dans mon travail, je donne constamment le meilleur de moi-même.
                 <br />
                 <br />

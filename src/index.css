@@ -6,6 +6,15 @@
   cursor: none;
 }
 
+.explication {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.545);
+  
+}
+.explication:hover {
+  color: #ac6b34;
+  border-bottom: 1px solid #ac6b34;
+}
+
 .cursor_perso {
   width: 40px;
   height: 40px;

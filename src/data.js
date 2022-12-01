@@ -18,6 +18,7 @@ import FiverBrandIcon from './assets/img/brands/fiverr.png';
 import Project1 from './assets/img/projects/p1.png';
 import Project2 from './assets/img/projects/p2.png';
 import Project3 from './assets/img/projects/p3.png';
+import Project4 from './assets/img/projects/p4.jpg';
 
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png';
@@ -90,11 +91,11 @@ export const projectsData = [
   {
     id: '2',
     image: Project2,
-    link: 'https://dawn-valley.web.app/',
-    name: 'Dawn Valley RP',
+    link: 'https://mimi-evenementiel.web.app/',
+    name: 'Mimi-Événementiel',
     category: 'Développement Front-End',
-    description: 'Dawn Valley RP est un théâtre immersif et virtuel.',
-    tech: 'React, JavaScript, CSS',
+    description: "Landing page pour présentation d'événement.",
+    tech: 'React, Firebase, EmailJS, JavaScript, CSS',
   },
   {
     id: '3',
@@ -105,12 +106,21 @@ export const projectsData = [
     description: 'Site internet répertoriant une panoplie de jeux gratuits.',
     tech: 'React, TypeScript, CSS, JavaScript'
   },
+  {
+    id: '4',
+    image: Project4,
+    link: 'https://landing-page-datawarehouse.web.app/',
+    name: 'DataWarehouse',
+    category: 'Développement Front-End',
+    description: 'Fausse Landing page basé sur les Entrepôt de données.',
+    tech: 'React, , CSS, JavaScript, Tailwind'
+  },
 ];
 
 // projects
 export const projectsNav = [
   {
-    name: 'tout',
+    name: '',
   },
 ];
 
@@ -159,14 +169,14 @@ export const services = [
   },
   {
     icon: <FiPenTool />,
-    name: 'SEO',
-    description: "Engagement à obtenir un score de 100% sur le SEO de Lighthouse (Google).",
+    name: 'SEO (Référencement)',
+    description: "Engagement à obtenir un score de 100% sur le Référencement de Google (Lighthouse).",
   },
   {
     icon: <FiTag />,
     name: 'Méthode Agile',
     description:
-      "Maîtrise, agilité et application de la méthode SCRUM sur l'ensemble de mes projets.",
+      "Maîtrise et agilité sur l'ensemble de mes projets.",
   },
 ];
 

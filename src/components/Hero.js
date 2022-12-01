@@ -19,8 +19,8 @@ const Hero = () => {
             Je construis <br /> Votre site Web.
             </h1>
             <p className='pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left'>
-              Développeur Web Front-End basé à Miramas, 
-              spécialisé dans le SEO.
+              Développeur Web basé à Miramas, 
+              spécialisé dans le Référencement.
             </p>
           </div>
           <div className='hidden lg:flex flex-1 justify-end items-end'>
