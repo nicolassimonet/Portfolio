@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 // import contact data
 import { contact } from '../data';
 
-import { db } from '../firebase'
+import { db } from '../firebase/firebase'
 
 
 const Contact = () => {
