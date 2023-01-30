@@ -1,7 +1,7 @@
 import React from 'react';
 
 // import woman image
-import WomanImg from '../assets/img/mac.png';
+import heroImg from '../assets/img/mac.png';
 
 const Hero = () => {
   return (
@@ -24,7 +24,7 @@ const Hero = () => {
             </p>
           </div>
           <div className='hidden lg:flex flex-1 justify-end items-end'>
-            <img src={WomanImg} alt='' />
+            <img src={heroImg} alt='' />
           </div>
         </div>
       </div>

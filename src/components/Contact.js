@@ -43,7 +43,7 @@ const Contact = () => {
             Contactez-moi
           </h2>
           <p className='subtitle'>
-          Contactez-moi pour voir comment vous aider à avoir plus de résultats à moindre coût.
+             Obtenez une solution web sur mesure pour votre entreprise <br/> - <br/> Contactez-moi pour discuter de vos besoins en solution web
           </p>
         </div>
         <div

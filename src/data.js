@@ -176,7 +176,7 @@ export const services = [
     icon: <FiTag />,
     name: 'Méthode Agile',
     description:
-      "Maîtrise et agilité sur l'ensemble de mes projets.",
+      "Livraison de versions fonctionnelles à court terme plutôt que sur la planification de tout le projet en détail dès le début, afin de garantir un développement rapide et de qualité.",
   },
 ];
 
