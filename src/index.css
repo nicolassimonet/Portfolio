@@ -156,8 +156,8 @@
   animation-timing-function: linear;
   filter: blur(100px);
   opacity: 0.35;
-  margin-top: -80%;
-  margin-left: -125%;
+  margin-top: -70%;
+  margin-left: -127%;
   z-index: -1000;
 }
 
