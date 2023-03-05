@@ -21,7 +21,7 @@ const Nav = () => {
                 to={item.href}
                 activeClass='active'
                 spy={true}
-                smooth={true}
+                smooth={true}   
                 duration={500}
                 offset={-70}
                 className='transition-all duration-300'
