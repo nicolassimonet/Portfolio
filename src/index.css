@@ -124,6 +124,7 @@
   transform: scale(105%);
 }
 
+
 @media screen and (max-width: 768px) {
   .img__about {
     margin-top: 0;
@@ -138,10 +139,9 @@
 }
 
 .img__hero {
-  width: 1400px;
+  width: 1200px!important;
+  /* margin-left: 100px; */
 }
-
-
 
 
 .circle,
@@ -156,9 +156,9 @@
   animation-timing-function: linear;
   filter: blur(100px);
   opacity: 0.35;
-  margin-top: -50%;
-  margin-left: -85%;
-  z-index: -10000;
+  margin-top: -80%;
+  margin-left: -125%;
+  z-index: -1000;
 }
 
 .circle {
@@ -167,6 +167,11 @@
 
 .circle2 {
   background-color: rgb(255, 200, 0);
+}
+
+.wtf__bro {
+  position: relative;
+  width: 500px;
 }
 
 
@@ -181,25 +186,35 @@
 
 @media screen and (max-width: 768px) {
 
+  .wtf__bro {
+    display: none;
+  }
+
   #home {
     overflow: hidden;
     display: flex;
     flex-direction: column;
   }
+
   .circle,
-.circle2 {
-  position: absolute;
-  width: 500px;
-  height: 500px;
-  border-radius: 50%;
-  animation-name: rotate;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  filter: blur(100px);
-  opacity: 0.35;
-  margin-top: -50%;
-  margin-left: -20%;
-  z-index: -10000;
+  .circle2 {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    animation-name: rotate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    filter: blur(100px);
+    opacity: 0.35;
+    margin-top: -50%;
+    margin-left: -150px;
+    z-index: -10000;
+  }
+
+  .letter__spaccing-title {
+    line-height: 1.5;
+  }
 }
-}
+

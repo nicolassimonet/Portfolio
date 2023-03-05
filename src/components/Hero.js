@@ -32,8 +32,9 @@ const Hero = () => {
   return (
     <section
       id='home'
-      className='lg:h-[85vh] flex items-center bg-primary lg:bg-cover lg:bg-center lg:bg-no-repeat py-32 lg:py-0 overflow-hidden'
+      className='lg:h-[85vh] flex items-center justify-center bg-primary lg:bg-cover lg:bg-center lg:bg-no-repeat py-32 lg:py-0 overflow-hidden'
     >
+    <div className='wtf__bro'></div>
       <div className='z-0 relative'>
         <div
           className='circle animated z-0'
@@ -51,13 +52,13 @@ const Hero = () => {
         />
         <img className='img__hero z-10' src={heroImg} alt='' />
       </div>
-      <div className='container mx-auto h-full z-50'>
+      <div className='hero__container-bruh container mx-auto h-full z-20'>
         <div className='flex items-center h-full pt-8'>
           <div className='flex-1 flex flex-col items-center lg:items-start'>
-            <p className='text-lg text-accent text-md mb-[22px]'>
+            <p className='text-xl text-accent text-md mb-[22px]'>
               Bonjour ! 👋
             </p>
-            <h1 className='text-4xl leading-[44px] md:text-5xl md:leading-tight lg:text-7xl lg:leading-[1.2] font-bold md:tracking-[-2px]'>
+            <h1 className='letter__spaccing-title text-6xl leading-[44px] md:text-5xl md:leading-tight lg:text-7xl lg:leading-[1.2] font-bold md:tracking-[-2px]'>
               Je construis <br /> Votre site Web.
             </h1>
             <p className='pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left'>
